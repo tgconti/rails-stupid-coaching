@@ -1,6 +1,9 @@
 
-<div class="cotainer text-center m-5">
+<div class="cotainer m-5">
   <h2>Coach answer...</h2>
-  <p><%= @answer %></p>
+  <div class="alert alert-primary" role="alert" style="width: 400px">
+    <p><%= @answer %></p>
+  </div>
+
   <button type="submit" class="btn btn-light m-2"><%= link_to "Back to init", ask_path %></button>
 </div>
